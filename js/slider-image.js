@@ -3,6 +3,37 @@
 /*=============================================
                 YEARS OF EARTH
 ==============================================*/
+function preloadImages(array) {
+    if (!preloadImages.list) {
+        preloadImages.list = [];
+    }
+    var list = preloadImages.list;
+    for (var i = 0; i < array.length; i++) {
+        var img = new Image();
+        img.onload = function() {
+            var index = list.indexOf(this);
+            if (index !== -1) {
+                // remove image from the array once it's loaded
+                // for memory consumption reasons
+                list.splice(index, 1);
+            }
+        }
+        list.push(img);
+        img.src = array[i];
+    }
+}
+
+preloadImages(["img/range-slider/earth_750m_years.png", 
+               "img/range-slider/earth_540m_years.png", 
+               "img/range-slider/earth_500m_years.png", 
+               "img/range-slider/earth_470m_years.png", 
+               "img/range-slider/earth_450m_years.png",    
+               "img/range-slider/earth_430m_years.png",  
+               "img/range-slider/earth_400m_years.png",        
+            ]);
+
+
+
 
 
 let rangevalue = document.getElementById("myRange");
