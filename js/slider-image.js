@@ -23,13 +23,33 @@ function preloadImages(array) {
     }
 }
 
-preloadImages(["img/range-slider/earth_750m_years.png", 
+preloadImages([
+               "img/range-slider/earth_750m_years.png", 
                "img/range-slider/earth_540m_years.png", 
                "img/range-slider/earth_500m_years.png", 
                "img/range-slider/earth_470m_years.png", 
                "img/range-slider/earth_450m_years.png",    
                "img/range-slider/earth_430m_years.png",  
-               "img/range-slider/earth_400m_years.png",        
+               "img/range-slider/earth_400m_years.png",
+               "img/range-slider/earth_370m_years.png",  
+               "img/range-slider/earth_340m_years.png",  
+               "img/range-slider/earth_300m_years.png",  
+               "img/range-slider/earth_280m_years.png",  
+               "img/range-slider/earth_260m_years.png",  
+               "img/range-slider/earth_240m_years.png",  
+               "img/range-slider/earth_220m_years.png",          
+               "img/range-slider/earth_200m_years.png",  
+               "img/range-slider/earth_170m_years.png",  
+               "img/range-slider/earth_150m_years.png",  
+               "img/range-slider/earth_120m_years.png",
+               "img/range-slider/earth_105m_years.png",  
+               "img/range-slider/earth_90m_years.png",  
+               "img/range-slider/earth_66m_years.png",  
+               "img/range-slider/earth_50m_years.png",  
+               "img/range-slider/earth_35m_years.png",  
+               "img/range-slider/earth_20m_years.png",  
+               "img/range-slider/earth_0m_years.png",  
+
             ]);
 
 
