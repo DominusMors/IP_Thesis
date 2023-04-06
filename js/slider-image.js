@@ -1,38 +1,25 @@
-
-/*=============================================
-                YEARS OF EARTH
-==============================================*/
-
-var image0 = "img/range-slider/earth_750m_years.png";
-var image1 = "img/range-slider/earth_540m_years.png";
-var image2 = "img/range-slider/earth_500m_years.png";
-var image3 = "img/range-slider/earth_470m_years.png";
-
-
-
-
 let rangevalue = document.getElementById("myRange");
         let setvalue = document.getElementById("rangevalue");
         let imgchangevalue = document.getElementById("imgchange")
             //setvalue.innerHTML = rangevalue.value;
             //console.log(rangevalue.value)
-
-        /*Now will use oninput event. Each image gets a 4 point value on the slider and when it reaches that value it switches*/
+            
+        //Now will use oninput event.
         rangevalue.oninput = function() {
             let getvalue = rangevalue.value;
             setvalue.innerHTML = this.value;
         if (getvalue > 0 && getvalue < 3) {              
-            imgchangevalue.setAttribute("src", image0)
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_750m_years.png")
         } else if (getvalue >= 4 && getvalue <= 7) {
-            imgchangevalue.setAttribute("src", image1)
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_540m_years.png")
         } else if (getvalue >= 8 && getvalue <= 11) {
-            imgchangevalue.setAttribute("src", image2)
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_500m_years.png")
         } else if (getvalue >= 12 && getvalue <= 15) {
-            imgchangevalue.setAttribute("src", image3)
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_470m_years.png")
         } else if (getvalue >= 16 && getvalue <= 19) {
-            imgchangevalue.setAttribute("src", "img/range-slider/earth_450m_years.png")
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_450m_years.png")
         } else if (getvalue >= 20 && getvalue <= 23) {
-            imgchangevalue.setAttribute("src", "img/range-slider/earth_430m_years.png")
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_430m_years.png")
         } else if (getvalue >= 24 && getvalue <= 27) {
             imgchangevalue.setAttribute("src", "img/range-slider/earth_400m_years.png")
         } else if (getvalue >= 28 && getvalue <= 31) {
