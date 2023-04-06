@@ -21,31 +21,31 @@ let rangevalue = document.getElementById("myRange");
         } else if (getvalue >= 20 && getvalue <= 23) {
             imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_430m_years.png")
         } else if (getvalue >= 24 && getvalue <= 27) {
-            imgchangevalue.setAttribute("src", "img/range-slider/earth_400m_years.png")
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_400m_years.png")
         } else if (getvalue >= 28 && getvalue <= 31) {
-            imgchangevalue.setAttribute("src", "img/range-slider/earth_370m_years.png")
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_370m_years.png")
         } else if (getvalue >= 32 && getvalue <= 35) {
-            imgchangevalue.setAttribute("src", "img/range-slider/earth_340m_years.png")
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_340m_years.png")
         } else if (getvalue >= 36 && getvalue <= 39) {
-            imgchangevalue.setAttribute("src", "img/range-slider/earth_300m_years.png")
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_300m_years.png")
         } else if (getvalue >= 40 && getvalue <= 43) {
-            imgchangevalue.setAttribute("src", "img/range-slider/earth_280m_years.png")
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_280m_years.png")
         } else if (getvalue >= 44 && getvalue <= 47) {
-            imgchangevalue.setAttribute("src", "img/range-slider/earth_260m_years.png")
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_260m_years.png")
         } else if (getvalue >= 48 && getvalue <= 51) {
-            imgchangevalue.setAttribute("src", "img/range-slider/earth_240m_years.png")
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_240m_years.png")
         } else if (getvalue >= 52 && getvalue <= 55) {
-            imgchangevalue.setAttribute("src", "img/range-slider/earth_220m_years.png")
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_220m_years.png")
         } else if (getvalue >= 56 && getvalue <= 59) {
-            imgchangevalue.setAttribute("src", "img/range-slider/earth_200m_years.png")
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_2000m_years.png")
         } else if (getvalue >= 60 && getvalue <= 63) {
-            imgchangevalue.setAttribute("src", "img/range-slider/earth_170m_years.png")
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_170m_years.png")
         } else if (getvalue >= 64 && getvalue <= 67) {
-            imgchangevalue.setAttribute("src", "img/range-slider/earth_150m_years.png")
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_150m_years.png")
         } else if (getvalue >= 68 && getvalue <= 71) {
-            imgchangevalue.setAttribute("src", "img/range-slider/earth_120m_years.png")
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_120m_years.png")
         } else if (getvalue >= 72 && getvalue <= 75) {
-            imgchangevalue.setAttribute("src", "img/range-slider/earth_105m_years.png")
+            imgchangevalue.setAttribute("src", "https://dominusmors.github.io/IP_Thesis/img/range-slider/earth_105m_years.png")
         } else if (getvalue >= 76 && getvalue <= 79) {
             imgchangevalue.setAttribute("src", "img/range-slider/earth_90m_years.png")
         } else if (getvalue >= 80 && getvalue <= 83) {
