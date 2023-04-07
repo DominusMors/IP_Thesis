@@ -414,7 +414,7 @@ html {
 
 #work-cover {
     
-    /* background-image: url(../img/transition/jwt_transition.jpg);   */
+   /* background-image: url(../img/transition/jwt_transition.gif);  */
     background-color: black;
     height: 100%;
     background-size: cover;
@@ -436,7 +436,7 @@ html {
 
 .img-wrapper img {
     
-    -webkit-transition: -webkit-transform .5s ease;               /* allows to change propertie values smoothlie over duration */
+    -webkit-transition: -webkit-transform .5s ease;               /* allows to change propertie values smoothly over duration */
     transition: -webkit-transform .5s ease;   
     transition: -webkit-transform .5s ease, -webkit-transform .5s ease;      
     border: 7px solid #362d8d;
@@ -1054,6 +1054,55 @@ figure.effect-roxy {
 	background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
 	background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
 }
+
+.blur-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 9999;
+    filter: blur(5px);
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y:scroll;
+
+    background-color: rgba(0,0,0,0.8);
+  }
+  .modal-open {
+    overflow: unset;
+}
+  
+
+
+  .modal-content {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+
+
+  .close-modal {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2em;
+  cursor: pointer;
+  color: #fff;
+  z-index: 99999;
+}
+
 
 figure.effect-roxy img {
 	max-width: none;
